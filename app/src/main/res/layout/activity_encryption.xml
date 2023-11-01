@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8EFDF"
+    tools:context=".encryption">
+
+    <Button
+        android:id="@+id/encrypt_btn"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/login_btn"
+        android:backgroundTint="@color/signup"
+        android:text="ENCRYPT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+
+
+        app:backgroundTint="#134B4F"
+        app:iconPadding="10dp"
+        app:iconSize="20dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+    <EditText
+        android:id="@+id/message_encrypt"
+
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:gravity="top"
+        android:hint="Enter the text to Encrypt"
+        android:inputType="textMultiLine"
+        android:lines="5"
+
+        android:padding="10dp"
+        android:textColor="@color/signup"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <EditText
+        android:id="@+id/result_encrypt"
+
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:gravity="top"
+        android:hint=" Encrypted Text"
+        android:inputType="textMultiLine"
+        android:lines="5"
+
+        android:padding="10dp"
+        android:textColor="@color/signup"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <EditText
+        android:id="@+id/key_e"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:gravity="top"
+        android:hint="Secret Key"
+        android:inputType="textShortMessage|text"
+        android:lines="1"
+
+        android:padding="10dp"
+        android:textColor="@color/signup"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
+
+    <TextView
+        android:id="@+id/enc"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+
+        android:fontFamily="@font/alata"
+        android:text="Encryption"
+        android:textColor="@color/signup"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707"
+        app:srcCompat="@drawable/baseline_copy_all_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

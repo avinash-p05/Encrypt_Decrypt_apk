@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995300430354",
+    "project_id": "encrypt-decrypt-1f4d6",
+    "storage_bucket": "encrypt-decrypt-1f4d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995300430354:android:a96419edff2317606abecb",
+        "android_client_info": {
+          "package_name": "com.example.encrypt_decrypt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5cXCYrxVzRN26BWAplsmzSzzcnIq7cB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
